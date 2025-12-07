@@ -1,0 +1,286 @@
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.backg {
+    width: 55px;
+    height: 55px;
+    background: #FE4823;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.25);
+    flex-shrink: 0;
+}
+
+.backg i {
+    font-size: 22px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+}
+
+.navbar-brand .felx {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.navbar-brand .fw-semibold {
+    font-size: 1.60rem;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.navbar-brand p {
+    font-size: 0.875rem;
+    color: #95a5a6;
+    margin: 0;
+    font-weight: 400;
+}
+
+.nav-link {
+    color: #4A5565 !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #2c3e50 !important;
+}
+
+.navbar-end-icons {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.icon-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4A5565;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    color: #FF7B3B;
+
+    
+}
+
+.icon-btn i {
+    font-size: 18px;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #e9ecef;
+    transition: border-color 0.3s ease;
+}
+
+.profile-img:hover {
+    border-color: #ff6b35;
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* end section  */
+
+        :root {
+            --orange-custom: #ff7f41;
+            --orange-light-custom: #fff5e8;
+            --yellow-custom: #f5c71b;
+            --pink-custom: #e73d6b;
+            --red-custom: #dc3545;
+        }
+
+
+
+        .recipe-card-custom {
+            border: none;
+            overflow: hidden;
+        }
+
+        .rounded-start-custom {
+            border-top-left-radius: 1rem !important;
+            border-bottom-left-radius: 1rem !important;
+        }
+
+        .rating-badge-custom {
+            backdrop-filter: blur(10px);
+        }
+
+        .text-orange-custom {
+            color: var(--orange-custom);
+        }
+
+        .text-yellow-custom {
+            color: var(--yellow-custom);
+        }
+
+        .text-pink-custom {
+            color: var(--pink-custom);
+        }
+
+        .btn-lg-custom {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .btn-orange-light-custom {
+            background-color: var(--orange-light-custom);
+            color: var(--orange-custom);
+            border: none;
+            width: 3rem;
+            height: 3rem;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-orange-light-custom:hover {
+            background-color: #ffd8a8;
+            color: var(--orange-custom);
+        }
+
+        .recipe-tabs-custom {
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 2rem !important;
+        }
+
+        .recipe-tabs-custom .nav-item {
+            padding: 0 0.5rem;
+        }
+
+        .tab-button-custom {
+            border: none !important;
+            border-bottom: 2px solid transparent !important;
+            padding: 0.75rem 0.5rem;
+            font-weight: 500;
+            color: #6c757d;
+            transition: all 0.2s ease-in-out;
+            background: transparent;
+        }
+
+        .tab-button-custom:hover,
+        .tab-button-custom.active {
+            color: var(--orange-custom) !important;
+            border-bottom-color: var(--orange-custom) !important;
+            background-color: transparent !important;
+        }
+
+        .ingredients-bg-custom {
+            background-color: #f8f9fa;
+        }
+
+        .ingredient-number-custom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2rem;
+            height: 2rem;
+            min-width: 2rem;
+            background-color: var(--orange-custom);
+            color: white;
+            font-weight: bold;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .instructions-list-custom {
+            border: none !important;
+            padding-left: 0;
+        }
+
+        .instructions-list-custom .list-group-item {
+            border: none;
+            padding: 1rem 0;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            background: transparent;
+        }
+
+        .instruction-number-custom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3.5rem;
+            height: 3.5rem;
+            min-width: 3.5rem;
+            background-color: var(--orange-custom);
+            color: white;
+            font-weight: bold;
+            border-radius: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .nutrition-card-custom {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center !important;
+            height: 100%;
+        }
+
+        .nutrition-card-custom i {
+            opacity: 0.8;
+        }
+
+        .bg-light-orange-custom {
+            background-color: #fffbf0;
+            border-left: 4px solid #fbbf24;
+            border-radius: 0.5rem !important;
+        }
+
+        .tip-check-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2rem;
+            height: 2rem;
+            min-width: 2rem;
+            background-color: var(--orange-custom);
+            color: white;
+            border-radius: 50%;
+            font-size: 0.875rem;
+        }
+
+        .try-another-btn-custom {
+            background: linear-gradient(to right, var(--orange-custom), var(--red-custom));
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            color: white;
+            font-weight: 600;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .try-another-btn-custom:hover {
+            background: linear-gradient(to right, #e8910d, #d03939);
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            color: white;
+        }
